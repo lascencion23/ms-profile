@@ -18,7 +18,7 @@ public class SubType {
     @Valid
     EnumSubType value;
 
-    enum EnumSubType{
+    public enum EnumSubType{
         NORMAL, VIP, PYME
     }
 }
